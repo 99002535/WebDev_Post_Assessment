@@ -1,0 +1,18 @@
+[{
+    "username":"Suraj",
+    "city":"Hyderabad",
+    "email":"suraj.marthy@ltts.com",
+    "phone":"8885994995"
+   },
+   {
+    "username":"Shweta",
+    "city":"Mumbai",
+    "email":"shweta.melavane@ltts.com",
+    "phone":"9876543212"
+   },{
+    "username":"Tejasvi",
+    "city":"Mumbai",
+    "email":"tejasvi.mhase@ltts.com",
+    "phone":"9123456789"
+   }
+   ]

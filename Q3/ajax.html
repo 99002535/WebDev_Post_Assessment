@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#show').click(function(){
+                username = $('#uname').val();
+            city = $('#ucity').val();
+            $('#mydiv').html('Welcome '+username+' from '+city);
+            });
+        });
+    </script>
+</head>
+<body>
+    <table border="1">
+        
+        <tr>
+        <td>Enter Name</td>
+        <td><input type="text" name="username" id="uname" placeholder="Enter Name"/><br/> </td> 
+        </tr>
+        <tr> 
+        <td>Enter City</td>
+        <td><input type="text" name="city" id="ucity" placeholder="Enter City"/><br/></td>
+        </tr> 
+ 
+        <tr>
+        <td><button id = "show">Submit</button></td>
+        </tr>
+       
+        </form>
+       </table>
+       <div id="mydiv" style="background-color: yellow;"></div>
+</body>
+</html>
