@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<script src="validation.js"></script>
+</head>
+<body>
+    <table>
+    <form name="myform">
+        <tr>
+            <td>Username</td>
+            <td>
+                <input type="text" name="username" id="uname" placeholder="Enter Username" required/><br/>
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+                <input type="password" name="password" id="pass" placeholder="Enter Password"required/><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td>
+                <input type="text" name="emailID" id="email" placeholder="Enter Email ID"/><br/>
+            </td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td> 
+                <input type="number" name="phone" id="phone" placeholder="Enter Phone Number"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Register" onclick="validationForm()"/>
+            </td>
+            <td>
+                <input type="reset" value="Clear"/>
+            </td>
+        </tr>
+    </form>
+    </table>
+    <div id="mydiv" style="background-color: bisque;"></div>
+</body>
+</html>
